@@ -1,0 +1,24 @@
+import React from "react";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Modal from "./components/Modal";
+import Features from "./components/Features";
+import HowitWorks from "./components/HowitWorks";
+import Footer from "./components/Footer";
+
+const App = () => {
+  return (
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+      <Modal />
+      <Features />
+      <HowitWorks />
+      <Footer />
+    </main>
+  );
+};
+
+export default App;
