@@ -6,6 +6,7 @@ import Modal from "./components/Modal";
 import Features from "./components/Features";
 import HowitWorks from "./components/HowitWorks";
 import Footer from "./components/Footer";
+import Camera48p from "./components/Camera48p";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Modal />
       <Features />
       <HowitWorks />
+      <Camera48p/>
       <Footer />
     </main>
   );
